@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game{
+    height: 100vh;
+    background-color: rgb(39, 41, 68);
+    font-family: sans-serif;
+}
+.score{
+    color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.score h2{
+    font-size: 30px;
+}
+.score p{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.intro{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 470px;
+    transition: all 0.5s ease;
+    
+}
+.intro h1{
+    font-size: 50px;
+    color: white;
+}
+.intro button{
+    width: 150px;
+    height: 50px;
+    background: rgb(45, 117, 96);
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.match{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.match .hands{
+    display: flex;
+    justify-content: space-around;
+}
+.match button{
+    width: 150px;
+    height: 50px;
+    background: rgb(45, 117, 96);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+.match h2{
+    color: white;
+    font-size: 40px;
+}
+.inactive{
+    pointer-events: none;
+    opacity: 0;
+}
+.active{
+    pointer-events: all;
+    opacity: 1;
+}
+.playerhand{
+    transform:rotateY(180deg);
+}
