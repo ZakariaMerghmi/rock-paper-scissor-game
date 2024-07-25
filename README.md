@@ -3,6 +3,9 @@
  * Home page :
 
 
+      ![Screenshot 2024-07-25 224651](https://github.com/user-attachments/assets/1f087304-06e9-4377-9961-25edd05cffde)
+
+
  * Before the battle :
 
 
